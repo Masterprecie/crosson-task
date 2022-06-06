@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.bg-service{
+    background: url(../img/Background.png);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.service{
+    background: #F1F1F1E5;
+}
+.service .bg-service a{
+    text-decoration: none;
+    color: #000;
+}
+.service li i{
+    font-size: 20px;
+    font-weight: 900!important;
+    color: #000;
+}
+.service .logo-box{
+    border: none;
+    background: #fff;
+    padding: 40px 20px;
+}

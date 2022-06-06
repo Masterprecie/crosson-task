@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.border-special{
+    background: #FCD900;
+    padding: 10px;
+}
+.product .text-img{
+    display: flex;
+}
+.product .text-img-ul{
+    display: flex;
+}
+
+@media (max-width:700px) {
+    .product .text-img{
+        flex-direction: column;
+    }
+    .product .text-img-ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    .product .text-img-ul li{
+        padding: 0!important;
+    }
+    .product .text-img-ul .border-special {
+        padding: 5px!important;
+    }
+}
