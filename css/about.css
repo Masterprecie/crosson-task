@@ -20,6 +20,9 @@ body{
     width: 65%;
     height: auto;
 }
+.about-us .value {
+    display: flex;
+}
 .about-us .special-elipse{
     height: 102px;
     width: 102px;
@@ -49,10 +52,10 @@ body{
     .about-us .value-right{
         width: 100%;
     }
-    .about-us .d-flex {
+    .about-us .value {
         flex-direction: column!important;
     }
-    .about-us .d-flex img{
+    .about-us .value img{
         width: 100%;
         margin-top: 20px;
     }
