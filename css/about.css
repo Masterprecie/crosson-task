@@ -63,3 +63,17 @@ body{
         display: none;
     }
 }
+
+   
+@media (max-width:375px){
+    #footer-top{
+        font-size: 12px;
+    }
+    #footer-top .footer-mail{
+        width: 20px;
+        padding-left: 0!important;
+    }
+    #footer-top .footer-phone{
+      display: none;
+    }
+}
